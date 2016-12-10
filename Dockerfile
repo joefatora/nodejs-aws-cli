@@ -11,5 +11,5 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     && cd /tmp \
     && curl -O https://bootstrap.pypa.io/get-pip.py \
     && python get-pip.py \
-    && sudo pip install awscli \
+    && pip install awscli \
     && rm -f /tmp/get-pip.py
