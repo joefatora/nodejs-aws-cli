@@ -1,4 +1,4 @@
-FROM node:5
+FROM node:8
 
 MAINTAINER Daniel Holzmann <d@velopment.at>
 
