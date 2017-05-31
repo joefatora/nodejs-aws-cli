@@ -1,6 +1,6 @@
 FROM node:8
 
-MAINTAINER Daniel Holzmann <d@velopment.at>
+MAINTAINER Joe Fatora <joe@engaugeab.com>
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
     && apt-get upgrade -y \
